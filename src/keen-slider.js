@@ -186,7 +186,7 @@ function KeenSlider(initialContainer, initialOptions = {}) {
       passive: true,
     })
     eventAdd(window, 'wheel', eventWheel, {
-      passive: false,
+      passive: true,
     })
   }
 
